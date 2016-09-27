@@ -120,11 +120,10 @@
                 <!-- MapDB -->
                 <include>mapdb-*</include>
 
-                <!-- JmDNS -->
+                <!-- IO libs -->
                 <include>jmdns-*</include>
-
-                <!-- JmDNS -->
                 <include>org.jupnp-*</include>
+                <include>org.eclipse.paho.client.mqttv3-*</include>
             </includes>
         </fileSet>
 

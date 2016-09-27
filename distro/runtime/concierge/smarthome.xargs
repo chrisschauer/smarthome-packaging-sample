@@ -181,6 +181,9 @@
 # JmDNS
 -istart ${system.dir}/jmdns-3.5.1*.jar
 
+# MQTT
+-istart ${system.dir}/org.eclipse.paho.client.mqttv3-*.jar
+
 # Eclipse SmartHome modules
 -istart ${esh.dir}/org.eclipse.smarthome.core-${esh.version}*.jar
 -istart ${esh.dir}/org.eclipse.smarthome.core.autoupdate-${esh.version}*.jar
@@ -206,6 +209,7 @@
 -istart ${esh.dir}/org.eclipse.smarthome.io.net-${esh.version}*.jar
 -istart ${esh.dir}/org.eclipse.smarthome.io.transport.mdns-${esh.version}*.jar
 -istart ${esh.dir}/org.eclipse.smarthome.io.transport.upnp-${esh.version}*.jar
+-istart ${esh.dir}/org.eclipse.smarthome.io.transport.mqtt-${esh.version}*.jar
 
 # Eclipse SmartHome Automation modules
 -istart ${esh.dir}/org.eclipse.smarthome.automation.api-${esh.version}*.jar

@@ -227,6 +227,11 @@
             <artifactId>org.eclipse.smarthome.io.transport.mdns</artifactId>
             <version>${esh.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.eclipse.smarthome.io</groupId>
+            <artifactId>org.eclipse.smarthome.io.transport.mqtt</artifactId>
+            <version>${esh.version}</version>
+        </dependency>
 
         <!-- Eclipse Smarthome dependencies - Storage -->
         <dependency>
@@ -529,6 +534,13 @@
             <groupId>org.jupnp</groupId>
             <artifactId>org.jupnp</artifactId>
             <version>2.2.0</version>
+        </dependency>
+
+        <!-- MQTT -->
+        <dependency>
+            <groupId>org.eclipse.paho</groupId>
+            <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
+            <version>1.0.2</version>
         </dependency>
     </dependencies>
 
