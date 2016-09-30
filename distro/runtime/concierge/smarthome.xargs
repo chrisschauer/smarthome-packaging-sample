@@ -194,6 +194,7 @@
 -istart ${esh.dir}/org.eclipse.smarthome.core.thing-${esh.version}*.jar
 -istart ${esh.dir}/org.eclipse.smarthome.config.discovery-${esh.version}*.jar
 -istart ${esh.dir}/org.eclipse.smarthome.config.xml-${esh.version}*.jar
+-istart ${esh.dir}/org.eclipse.smarthome.config.dispatch-${esh.version}*.jar
 -istart ${esh.dir}/org.eclipse.smarthome.core.binding.xml-${esh.version}*.jar
 -istart ${esh.dir}/org.eclipse.smarthome.core.thing.xml-${esh.version}*.jar
 -istart ${esh.dir}/org.eclipse.smarthome.core.scheduler-${esh.version}*.jar

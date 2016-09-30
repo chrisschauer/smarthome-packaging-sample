@@ -180,6 +180,12 @@
             <artifactId>org.eclipse.smarthome.config.xml</artifactId>
             <version>${esh.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.eclipse.smarthome.config</groupId>
+            <artifactId>org.eclipse.smarthome.config.dispatch</artifactId>
+            <version>${esh.version}</version>
+        </dependency>
+
 
         <!-- Eclipse Smarthome dependencies - IO -->
         <dependency>
